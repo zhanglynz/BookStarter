@@ -1,6 +1,6 @@
 #' Start Book
 #'
-#' @return None
+#' @return TRUE, if successfully start a book
 #' @export
 #'
 start_book <- function()

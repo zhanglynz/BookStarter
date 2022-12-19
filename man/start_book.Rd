@@ -7,7 +7,7 @@
 start_book()
 }
 \value{
-None
+TRUE, if successfully start a book
 }
 \description{
 Start Book
