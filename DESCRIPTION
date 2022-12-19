@@ -1,0 +1,10 @@
+Package: BookStarter
+Title: My Book Starter
+Version: 0.0.0.9000
+Authors@R: 
+    person("Lingyun", "Zhang", , "lyzhang10@gmail.com", role = c("aut", "cre"))
+Description: Help start a book project.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
