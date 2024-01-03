@@ -1,0 +1,19 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "My book"
+  author: "Lingyun Zhang"
+  date: "`r Sys.Date()`"
+  chapters:
+    - index.qmd
+	
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+
+editor: visual
+
