@@ -4,7 +4,12 @@
 \alias{q_start_book}
 \title{Start Quarto Book}
 \usage{
-q_start_book()
+q_start_book(author = "Lingyun Zhang", title = "My New Book")
+}
+\arguments{
+\item{author}{author of the book, a character}
+
+\item{title}{title of the book, a character}
 }
 \value{
 TRUE, if successfully start a book
