@@ -23,7 +23,6 @@ q_start_book <- function(author = "Lingyun Zhang",
  fr <- file(fn, open = "rt")
 
  the_lines <- readLines(fr, n = -1)
-
  the_lines[6] <- gsub('My book', title, the_lines[6])
  the_lines[7] <- gsub('Lingyun Zhang', author, the_lines[7])
 

@@ -2,3 +2,4 @@
 
 export(q_start_book)
 export(start_book)
+export(start_tex)

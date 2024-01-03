@@ -4,7 +4,12 @@
 \alias{start_book}
 \title{Start Book}
 \usage{
-start_book()
+start_book(title = "My Book", author = "Lingyun Zhang")
+}
+\arguments{
+\item{title}{book's title, a character}
+
+\item{author}{book's author, a character}
 }
 \value{
 TRUE, if successfully start a book
