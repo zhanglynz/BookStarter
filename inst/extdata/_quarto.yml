@@ -5,10 +5,11 @@ project:
 book:
   title: "My book"
   author: "Lingyun Zhang"
-  date: "`r Sys.Date()`"
+  date: today
+  date-format: YYYY-MM-DD
   chapters:
     - index.qmd
-	
+
 format:
   html:
     theme:
